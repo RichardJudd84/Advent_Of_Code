@@ -1,0 +1,30 @@
+C:\Users\richa\Desktop\Advent of code 22\bin\Debug\net7.0\Advent of code 22.exe
+C:\Users\richa\Desktop\Advent of code 22\bin\Debug\net7.0\Advent of code 22.deps.json
+C:\Users\richa\Desktop\Advent of code 22\bin\Debug\net7.0\Advent of code 22.runtimeconfig.json
+C:\Users\richa\Desktop\Advent of code 22\bin\Debug\net7.0\Advent of code 22.dll
+C:\Users\richa\Desktop\Advent of code 22\bin\Debug\net7.0\Advent of code 22.pdb
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.csproj.AssemblyReference.cache
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.AssemblyInfoInputs.cache
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.AssemblyInfo.cs
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.csproj.CoreCompileInputs.cache
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.dll
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\refint\Advent of code 22.dll
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.pdb
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\Advent of code 22.genruntimeconfig.cache
+C:\Users\richa\Desktop\Advent of code 22\obj\Debug\net7.0\ref\Advent of code 22.dll
+C:\Dev\Repos\Advent_Of_Code\AOC_22\bin\Debug\net7.0\Advent of code 22.exe
+C:\Dev\Repos\Advent_Of_Code\AOC_22\bin\Debug\net7.0\Advent of code 22.deps.json
+C:\Dev\Repos\Advent_Of_Code\AOC_22\bin\Debug\net7.0\Advent of code 22.runtimeconfig.json
+C:\Dev\Repos\Advent_Of_Code\AOC_22\bin\Debug\net7.0\Advent of code 22.dll
+C:\Dev\Repos\Advent_Of_Code\AOC_22\bin\Debug\net7.0\Advent of code 22.pdb
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.AssemblyInfoInputs.cache
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.AssemblyInfo.cs
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.csproj.CoreCompileInputs.cache
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.sourcelink.json
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.dll
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\refint\Advent of code 22.dll
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.pdb
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\Advent of code 22.genruntimeconfig.cache
+C:\Dev\Repos\Advent_Of_Code\AOC_22\obj\Debug\net7.0\ref\Advent of code 22.dll
