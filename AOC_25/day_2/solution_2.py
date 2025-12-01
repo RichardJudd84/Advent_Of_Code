@@ -7,6 +7,6 @@ from solution_1 import *
 
 import input_paths
 
-testData = getLineStrings(input_paths.input2ExamplePath)
-data = getLineStrings(input_paths.input2Path)
+testData = getLineStrings(input_paths.input1ExamplePath)
+data = getLineStrings(input_paths.input1Path)
 
