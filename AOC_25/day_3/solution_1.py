@@ -8,4 +8,23 @@ import input_paths
 testData = getLineStrings(input_paths.input1ExamplePath)
 data = getLineStrings(input_paths.input1Path)
 
-print(testData)
+def getHighestnumber(line:str):
+    h1, h1i = getHighestnumberAndIndex(line[:-1])
+    h2, h2i = getHighestnumberAndIndex(line[h1i+1:])
+    return int(h1+h2)
+
+def getHighestnumberAndIndex(line:str):
+    highest = line[0]
+    highestIndex = 0
+    for i in range(1, len(line)):
+        if(line[i] > highest):
+            highest = line[i]
+            highestIndex = i
+  
+    return highest, highestIndex
+
+if(__name__ == '__main__'):
+    sum = 0
+    for line in data:
+        sum += getHighestnumber(line)
+    print(sum)
