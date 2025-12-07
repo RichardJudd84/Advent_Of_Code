@@ -1,42 +1,43 @@
 import sys
 import os  
-from typing import *
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 from utils.helpers import *
 import input_paths
+from solution_1 import *
 
 testData = getLineStrings(input_paths.input1ExamplePath)
 data = getLineStrings(input_paths.input1Path)
 
 def initStartDict(line: str):
     startIndex = line.find('S')
-    return set([startIndex]) 
+    return [startIndex]
 
-def processLine(beamIndices: Set[int], line: str,) -> Set[int] :
-    newIndices: Set[int] = set()
-    splitCount = 0
+def processLine(beamIndices: List[int], line: str,) -> List[int] :
+    newIndices: List[int] = []
     for i in beamIndices:
         if(line[i] == '^'):
-            splitCount += 1
             if(i == 0):
-                newIndices.add(i+1)
+                newIndices.append(i+1)
             elif(i == len(line)-1):
-                newIndices.add(i-1)
+                newIndices.append(i-1)
             else:
-                newIndices.add(i+1)
-                newIndices.add(i-1)
+                newIndices.append(i+1)
+                newIndices.append(i-1)
         else:
-            newIndices.add(i)
-    return newIndices, splitCount
+            newIndices.append(i)
+    return newIndices
 
 
 
 if(__name__ == '__main__'):
     d = data
     beamIndices = initStartDict(d[0])
-    count = 0
+    nLines = len(d)
+    n = 1
     for line in d[1:] :
-        beamIndices, nSplits = processLine(beamIndices, line)
-        count += nSplits
-    print(len(beamIndices), count)
+        n+=1
+        print(n, 'of', nLines)
+        beamIndices = processLine(beamIndices, line)
+        
+    print(len(beamIndices))
+
