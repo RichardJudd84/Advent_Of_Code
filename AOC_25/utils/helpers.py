@@ -15,12 +15,15 @@ def getBasePath():
     print("Script path:", basePath)
 
 def parseCSV(lines: list[str]):
-    idRanges = []
+    values = []
     for line in lines:
         newLine = line.strip(',').split(',')
 
-        idRanges.extend(newLine)
-    return idRanges
+        values.extend(newLine)
+    return values
+
+def parseListToInt(values: list[str]):
+    return [int(value) for value in parseCSV(values)]
 
 def expandRange(rangeString: str, delimiter: str = '-'):
     start, end = rangeString.split(delimiter)
