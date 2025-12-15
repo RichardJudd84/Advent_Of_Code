@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj": {}
+    "C:\\Dev\\my repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj": {
+    "C:\\Dev\\my repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj",
+        "projectUniqueName": "C:\\Dev\\my repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj",
         "projectName": "Advent of code 22",
-        "projectPath": "C:\\Dev\\Repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Repos\\Advent_Of_Code\\AOC_22\\obj\\",
+        "projectPath": "C:\\Dev\\my repos\\Advent_Of_Code\\AOC_22\\Advent of code 22.csproj",
+        "packagesPath": "C:\\Users\\riju01\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\my repos\\Advent_Of_Code\\AOC_22\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\riju01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

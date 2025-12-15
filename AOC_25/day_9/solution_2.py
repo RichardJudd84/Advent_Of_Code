@@ -51,9 +51,7 @@ def getMaxList(list: List[str],coords: List[Tuple[int,int]], perimiter: List[Tup
             coordB = list[b]
             area = getsquareSize(coordA, coordB)
             largestAreas.append((area,coordA,coordB))
-            #if(area > largestArea):
-            #    if (not isPerimeterinArea(coordA, coordB, perimiter)):
-            #        largestArea = area
+
     largestAreas.sort()
     cont = True
     while(cont):
@@ -64,10 +62,7 @@ def getMaxList(list: List[str],coords: List[Tuple[int,int]], perimiter: List[Tup
                 cont = False
             else:
                 print('p fail', area)
-        else:
-            pass
-            # print('fail', area)
-    #print(largestAreas)
+
 
 def isPerimeterinArea(coordA: str ,coordB: str, perimiter: List[Tuple[int,int]]):
 
@@ -89,12 +84,7 @@ def isPerimeterinArea(coordA: str ,coordB: str, perimiter: List[Tuple[int,int]])
 if(__name__ == '__main__'):
     d = data
     coords = (getCoords(d))
-    print('coords')
-    #floorMatrix = initFloorMatrix(coords)
-    #print('floorMatrix')
     perimiter = getPerimiter(coords)
-    print('potPerimiter')
     getMaxList(d,coords,perimiter)
-    #floorMatrix = fillMatrix(perimiter, floorMatrix)
-    #printMatrix(floorMatrix)
+
 
